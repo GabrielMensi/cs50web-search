@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <title>Search</title>
+    <link rel="icon" href="assets/g-logo.png" type="image/png">
+    <title>Search images</title>
 </head>
 <body>
     <header>
-        <ul class="nav">
-            <li><a href="index.html">Search</a></li>
-            <li><a href="advanced-search.html">Advanced search</a></li>
-        </ul>
+        <nav class="navbar">
+            <ul class="nav-items">
+                <li class="nav-button"><a href="index.html">Search</a></li>
+                <li class="nav-button"><a href="advanced-search.html">Advanced search</a></li>
+            </ul>
+        </nav>
     </header>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q">
-        <input type="hidden" name="tbm" value="isch">
-        <input type="submit" value="Google Search">
-    </form>
+    <main class="main-container">
+        <img src="assets/google-light.png" alt="Google logo">
+        <form action="https://www.google.com/search" class="form-default">
+            <div class="input-default">
+                <img src="assets/google-search-icon.svg" alt="Search icon" class="search-icon">
+                <input type="text" name="q">
+            </div>
+            <input type="hidden" name="tbm" value="isch">
+            <input type="submit" value="Google Search Images" class="submit-button">
+        </form>
+    </main>
 </body>
 </html>
