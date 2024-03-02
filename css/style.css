@@ -52,7 +52,6 @@ body {
     max-width: 480px;
     height: 100%;
     row-gap: 20px;
-    border: 1px solid red;
 }
 
 .form-default{
@@ -103,4 +102,29 @@ body {
     outline: none;
     display: flex;
     -webkit-tap-highlight-color: transparent;
+}
+
+.submit-button{
+    width: 50%;;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px auto;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.submit-button:hover{
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
 }
