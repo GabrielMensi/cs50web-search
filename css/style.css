@@ -32,7 +32,6 @@ body {
     align-items: center;
     padding: 15px;
     width: 100%;
-    border: 1px solid blue;
 }
 
 .nav-items{
@@ -41,6 +40,10 @@ body {
     justify-content: space-between;
     align-items: center;
     column-gap: 20px;
+}
+
+.nav-buttom:hover{
+    text-decoration: underline;
 }
 
 .main-container{
