@@ -10,6 +10,13 @@ ul, li, a {
     text-decoration: none;
     color: inherit;
 }
+input:-webkit-autofill, 
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #202124 inset;
+}
+input:-webkit-autofill {
+    -webkit-text-fill-color: #fff;
+}
 
 /* body */
 body {
@@ -41,8 +48,11 @@ body {
     align-items: center;
     column-gap: 20px;
 }
+.nav-button > a{
+    font-size: 13px;
+}
 
-.nav-buttom:hover{
+.nav-button:hover{
     text-decoration: underline;
 }
 
@@ -76,12 +86,17 @@ body {
     box-shadow: none;
     border-radius: 24px;
     padding: 5px 8px 0 14px;
+    
 }
 
 .input-default:hover{
     background-color: #303134;
     box-shadow: 0 1px 6px 0 #171717;
     border-color: transparent;
+}
+
+.input-default:hover > input:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px #303134 inset;
 }
 
 .input-default > img {
