@@ -8,10 +8,19 @@ This was Project 0 of HarvardX's CS50w course, and served as a quick refresher o
 
 - [Search](#search)
   - [Table of Contents](#table-of-contents)
+  - [Video Presentation](#video-presentation)
+  - [Deploy](#deploy)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Deploy](#deploy)
   - [Specification](#specification)
+
+## Video Presentation
+
+You can see the video [here](https://www.youtube.com/watch?v=gsUYnQuJyGg)
+
+## Deploy
+
+You can see the project deployment [here](https://cs50web-search.vercel.app/)
 
 ## Installation
 
@@ -55,10 +64,6 @@ cd cs50web-search
 Feel free to explore the different functionalities and styles implemented in each HTML file.
 
 Instructions on how to use the project and any relevant examples.
-
-## Deploy
-
-You can see the project deployment [here](https://cs50web-search.vercel.app/)
 
 ## Specification
 
