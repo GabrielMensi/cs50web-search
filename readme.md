@@ -26,7 +26,7 @@ git clone https://github.com/GabrielMensi/cs50web-search.git
 
 2.  Navigate to the project directory:
 ```bash
-`cd cs50web-search` 
+cd cs50web-search
 ```
 
 3.  Open the desired HTML file (e.g., `index.html`, `image-search.html`, `advanced-search.html`) using your preferred web browser.
