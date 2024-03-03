@@ -15,14 +15,50 @@ This was Project 0 of HarvardX's CS50w course, and served as a quick refresher o
 
 ## Installation
 
-Instructions on how to install and set up the project.
+
+To install and set up the project, follow these steps:
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/GabrielMensi/cs50web-search.git
+```
+
+2.  Navigate to the project directory:
+```bash
+`cd cs50web-search` 
+```
+
+3.  Open the desired HTML file (e.g., `index.html`, `image-search.html`, `advanced-search.html`) using your preferred web browser.
+    
+4.  Explore the various features of the Google Search, Google Image Search, and Google Advanced Search pages.
 
 ## Usage
+
+ This project is a simple front-end for Google Search, Google Image Search, and Google Advanced Search. Here's how to use it:
+
+-   **Google Search:**   
+    1.  Open `index.html`.
+    2.  Type your query in the search bar.
+    3.  Click the "Google Search" button to view the search results.
+ 
+-   **Google Image Search:**
+    1.  Open `image-search.html` or navigate to it from the "Image Search" link on the `index.html` page.
+    2.  Enter your image search query.
+    3.  Click the search button to view the Google Image search results.
+
+-   **Google Advanced Search:**    
+    1.  Open `advanced-search.html` or navigate to it from the "Advanced Search" link on the `index.html` page.
+    2.  Provide input for the specified fields, including "all these words," "this exact word or phrase," "any of these words," and "none of these words."
+    3.  Click the "Advanced Search" button to see the search results based on your input.
+
+Feel free to explore the different functionalities and styles implemented in each HTML file.
 
 Instructions on how to use the project and any relevant examples.
 
 ## Deploy
 
+You can see the project deployment [here](https://cs50web-search.vercel.app/)
 
 ## Specification
 
